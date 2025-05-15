@@ -3,7 +3,7 @@
 A responsive, single-page marketing website for **SoftSell**, a fictional software license resale startup. Built as part of the **Credex Web Development Internship Assignment**.
 
 ## 🌐 Live Demo
-[🔗 Visit Live Site](https://your-deployed-url.vercel.app)
+[🔗 Visit Live Site](https://thriving-clafoutis-6861f3.netlify.app/)
 
 ## 🚀 Tech Stack
 - **Framework**: React.js + Vite
@@ -18,7 +18,7 @@ A responsive, single-page marketing website for **SoftSell**, a fictional softwa
 
 ### ✅ Hero Section
 - Eye-catching headline and subheading
-- Clear Call-to-Action button (“Sell My Licenses”)
+- Clear Call-to-Action button
 
 ### ✅ How It Works
 - Three easy steps illustrated:
@@ -66,21 +66,13 @@ A responsive, single-page marketing website for **SoftSell**, a fictional softwa
 
 ## ⏱ Time Spent
 
-- **Planning & Wireframe**: 1 hour  
-- **Development**: 5–6 hours  
-- **Styling & Responsiveness**: 3 hours  
-- **Bonus Features & Testing**: 3 hours  
-- **Total**: ~12–13 hours
+- **Development**: 2–3 hours  
+- **Styling & Responsiveness**: 0.5 hours  
+- **Bonus Features & Testing**: 0.5 hours
 
 ---
 
 ## 🔗 Connect with Me
 
 Thanks for the opportunity! If you'd like to stay in touch:  
-[🌐 LinkedIn – Vansh Jaiswal](https://www.linkedin.com/in/adityaadhana-2b0aa4357/)
-
----
-
-## 📜 License
-
-This project is for educational/demo purposes only.
+[🌐 LinkedIn – Vansh Jaiswal](https://www.linkedin.com/in/vansh-jaiswal-806271218/)
