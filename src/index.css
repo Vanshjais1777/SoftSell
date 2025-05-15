@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-gray-900 dark:text-gray-100;
+  }
+
+  ::selection {
+    @apply bg-blue-500 text-white;
+  }
+}
+
+/* Smooth animations */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-500;
+}
+
+/* Form elements */
+input:focus, textarea:focus, select:focus {
+  @apply outline-none ring-2 ring-blue-500 border-transparent;
+}
+
+/* Dark mode transitions */
+.dark {
+  color-scheme: dark;
+}
+
+@layer utilities {
+  /* Gradient text animation */
+  .animate-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r animate-gradient;
+  }
+}
+
+/* Smooth page transitions */
+.page-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Custom focus styles */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900;
+}
